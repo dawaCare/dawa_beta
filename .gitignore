@@ -1,0 +1,6 @@
+.env
+*.pyc
+
+**/migrations/**
+!**/migrations
+!**/mmigrations/__init__.py
