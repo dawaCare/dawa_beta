@@ -1,7 +1,7 @@
-from import_export.resources import ModelResource
-from import_export.admin import ImportExportMixin, ImportMixin, ExportActionModelAdmin
+from apps.import_export.resources import ModelResource
+from apps.import_export.admin import ImportExportMixin, ImportMixin, ExportActionModelAdmin
 from django.contrib import admin
-from dashboard.models import Outpatient
+from apps.dashboard.models import Outpatient
 
 # Register your models here.
 

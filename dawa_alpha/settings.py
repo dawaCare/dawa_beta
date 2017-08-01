@@ -34,16 +34,15 @@ ALLOWED_HOSTS = ['dawa-alpha.herokuapp.com', 'localhost', 'dawa--alpha.herokuapp
 # Application definition
 
 INSTALLED_APPS = (
-    'import_export',
-    'dashboard',
-    'users',
+    'apps.import_export',
+    'apps.dashboard',
+    'apps.users',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
 )
 
 MIDDLEWARE_CLASSES = (
